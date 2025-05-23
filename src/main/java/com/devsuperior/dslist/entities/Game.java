@@ -32,6 +32,7 @@ public class Game {
 	
 	@Column(columnDefinition ="TEXT")
 	private String longDescription;
+
 	
 	public Game() {
 	}
@@ -117,11 +118,11 @@ public class Game {
 	}
 
 	public String getLongDEscription() {
-		return longDEscription;
+		return longDescription;
 	}
 
 	public void setLongDescription(String longDescription) {
-		this.longDEscription = longDEscription;
+		this.longDescription = longDescription;
 	}
 
 	@Override
